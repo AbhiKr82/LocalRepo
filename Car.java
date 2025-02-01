@@ -15,7 +15,13 @@ class Car {
         this.Model=c1.Model;
         this.price=c1.price;
     }
+
     String getModel(){
         return this.Model;
+    }
+
+    int getprice(){
+        return this.price;
+
     }
 }
