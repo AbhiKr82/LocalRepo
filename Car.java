@@ -10,9 +10,6 @@ class Car {
         this.Model=m;
         this.price=p;
     }
-    Car (Car c1){
-        this.Brand=c1.Brand;
-        this.Model=c1.Model;
-        this.price=c1.price;
+    Car (){
     }
 }
